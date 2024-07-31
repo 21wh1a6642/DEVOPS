@@ -1,22 +1,25 @@
 pipleline{
   agent any
   stages{
-    stage("Build_stage"){
+    stage ("Build") {
       steps{
         echo "Building Project..."
       }
     }
-  stage("Test_stage"){
+  stage ("Test"){
     steps{
       echo "Testing Project.."
     }
   }
-  stage("Deploy_stage")
+  stage ("Deploy") {
     steps{
       echo "Deploying Project..."
     }
   }
 }
+}
+
+  
 
 
 
