@@ -17,9 +17,6 @@ pipleline{
     }
   }
 }
-}
-post{
-  always{
-    echo "Thank You"
-  }
-}
+
+
+
